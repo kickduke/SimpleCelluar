@@ -1,0 +1,64 @@
+div.div1 p {
+	margin: 0px;
+	height: 12px;
+	font: 12px Monospace;
+}
+
+div.div0 {
+	float: left;
+	position: relative;
+	box-shadow: 7px 7px 5px #BBBBBB;
+	width: 18%;
+	height: 600px;
+	padding: 5px;
+	top: 10px;
+    border: 1px solid #DDDDDD;
+    font: 18px "Comic Sans MS", cursive, sans-serif;
+    background-color: #DDDDDD;
+}
+
+div.div0 p {
+	margin: 16px 14px 0px 14px;
+}
+
+div.div0 input#div0_i1,input#div0_i2{
+	position: relative;
+	width: 50%;
+	top: -2px;
+	font: 14px "Courier New", Courier, monospace;
+}
+
+div.div0 p.div0_rule {
+	position: relative;
+	margin: 4px;
+	left: 48px;
+	font: 21px Tahoma, Geneva, sans-serif;
+}
+
+div.div0 input.div0_ir{
+	font: 14px "Courier New", Courier, monospace;
+	position: relative;	
+}
+
+div.div0 button#div0_btn {
+	position: relative;
+	left: 48%;
+	top: 30px;
+	border: 0px;
+	height: 40px;
+	width: 100px;
+	font: 600 15px "Courier New", Courier, monospace;
+	color: white;
+	background-color: #336699;
+	box-shadow: 3px 3px 3px #999999;
+}
+
+div.div1 {
+	float: left;
+	width: 78%;
+	position: relative;
+	top: 10px;
+	left: 20px;
+	border: 1px solid #BBBBBB;
+	padding: 5px;
+}

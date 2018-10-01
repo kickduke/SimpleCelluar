@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Cellular Automata</title>
+		<link rel="stylesheet" href="css/stylesheet.css">
+	</head>
+	<body>
+	<div class="div0">
+		<h2><i>Cellular Automata</i></h2>
+		<p>cell数：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="div0_i1" type="text" /></p>
+		<p>演化次数：<input id="div0_i2" type="text" /></p>
+		<p>规则:</p>
+		<p class="div0_rule">
+			■■■&nbsp;&nbsp;-->&nbsp;&nbsp;
+			<input class="div0_ir" type="radio" name="r1" value="□" checked>□</input>
+			<input class="div0_ir" type="radio" name="r1" value="■">■</input>
+		</p>
+		<p class="div0_rule">
+			□□□&nbsp;&nbsp;-->&nbsp;&nbsp;
+			<input class="div0_ir" type="radio" name="r2" value="□" checked>□</input>
+			<input class="div0_ir" type="radio" name="r2" value="■">■</input>
+		</p>
+		<p class="div0_rule">
+			■■□&nbsp;&nbsp;-->&nbsp;&nbsp;
+			<input class="div0_ir" type="radio" name="r3" value="□" checked>□</input>
+			<input class="div0_ir" type="radio" name="r3" value="■">■</input>
+		</p>
+		<p class="div0_rule">
+			□□■&nbsp;&nbsp;-->&nbsp;&nbsp;
+			<input class="div0_ir" type="radio" name="r4" value="□" checked>□</input>
+			<input class="div0_ir" type="radio" name="r4" value="■">■</input>
+		</p>
+		<p class="div0_rule">
+			■□■&nbsp;&nbsp;-->&nbsp;&nbsp;
+			<input class="div0_ir" type="radio" name="r5" value="□" checked>□</input>
+			<input class="div0_ir" type="radio" name="r5" value="■">■</input>
+		</p>
+		<p class="div0_rule">
+			□■□&nbsp;&nbsp;-->&nbsp;&nbsp;
+			<input class="div0_ir" type="radio" name="r6" value="□" checked>□</input>
+			<input class="div0_ir" type="radio" name="r6" value="■">■</input>
+		</p>
+		<p class="div0_rule">
+			■□□&nbsp;&nbsp;-->&nbsp;&nbsp;
+			<input class="div0_ir" type="radio" name="r7" value="□" checked>□</input>
+			<input class="div0_ir" type="radio" name="r7" value="■">■</input>
+		</p>
+		<p class="div0_rule">
+			□■■&nbsp;&nbsp;-->&nbsp;&nbsp;
+			<input class="div0_ir" type="radio" name="r8" value="□" checked>□</input>
+			<input class="div0_ir" type="radio" name="r8" value="■">■</input>
+		</p>
+        <button id="div0_btn" onclick="createGraph()">生成演化图</button>
+	</div>	
+	
+	<div class="div1">
+		<p id="gene0"></p>
+	</div>	
+	<script src="js/javascript.js"></script>
+	</body>
+</html>
